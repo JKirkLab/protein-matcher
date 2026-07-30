@@ -13,7 +13,7 @@ def merge_metrics(overlap, origin_dfs):
 
 
 def filter_metrics(df_list):
-    keywords = ['Accession', 'Abundance Ratio', 'P-Value']
+    keywords = ['Accession', 'Abundance Ratio', 'P-Value', 'Description']
 
     filter_list = []
     for df in df_list:
